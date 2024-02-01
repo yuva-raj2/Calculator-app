@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background:linear-gradient(rgba(16, 156, 238, 0.438),rgba(201, 238, 203, 0.589));
+}
+.Calculator h1{
+  margin-left: 4rem;
+  margin-top:7rem;
+}
+.Calculator-app{
+  background:linear-gradient(rgba(81, 195, 223, 0.37),rgba(6, 71, 131, 0.5));
+  position: fixed;
+  top: 10rem;
+  left:3.3rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.calci-text{
+  border-radius: 50px;
+  border-style: none;
+  height: 1.5rem;
+}
+.Calculator-box-1{
+  padding-top: 1.2rem;
+}
+.Calculator-box-1 input,.Calculator-box-2 input,.Calculator-box-3 input,.Calculator-box-4 input,.Calculator-box-5 input{
+  width:1.5rem;
+  font-size: 15px !important;
+  cursor: pointer;
+  height: 2rem;
+}
+.Calculator-box-1 input,
+.Calculator-box-2 input,
+.Calculator-box-3 input,
+.Calculator-box-4 input,
+.Calculator-box-5 input{
+  margin-left:0.8rem;
+}
+.Calculator-box-1 input{
+  background:linear-gradient(rgba(197, 6, 226, 0.512),rgba(73, 82, 99, 0.849));
+  color:linear-gradient(rgba(121, 190, 63, 0.705),rgba(32, 114, 168, 0.849));
+}
+.Calculator-box-2 input{
+  background:linear-gradient(rgba(50, 250, 127, 0.836),rgba(24, 173, 173, 0.5));
+  color:linear-gradient(rgba(49, 37, 4, 0.404),rgba(20, 92, 36, 0.945));
+}
+.Calculator-box-3 input{
+  background:linear-gradient(rgba(22, 172, 97, 0.884),rgba(202, 204, 97, 0.63));
+  color:linear-gradient(rgba(47, 85, 110, 0.589),rgba(185, 212, 142, 0.671));
+}
+.Calculator-box-4 input{
+  background:linear-gradient(rgba(70, 75, 3, 0.808),rgba(97, 161, 36, 0.596));
+  color:linear-gradient(rgba(53, 39, 12, 0.904),rgba(188, 207, 143, 0.596));
+}
+.Calculator-box-5 input{
+  background:linear-gradient(rgba(184, 181, 48, 0.918),rgba(124, 83, 7, 0.918));
+  color:linear-gradient(rgba(6, 38, 41, 0.514),rgba(43, 87, 23, 0.589));
+}
+.Calculator-box-1 input:hover{
+  color:linear-gradient(rgba(197, 6, 226, 0.512),rgba(73, 82, 99, 0.849));
+  background:linear-gradient(rgba(121, 190, 63, 0.705),rgba(32, 114, 168, 0.849));
+}
+.Calculator-box-2 input:hover{
+  color:linear-gradient(rgba(50, 250, 127, 0.836),rgba(24, 173, 173, 0.5));
+  background:linear-gradient(rgba(49, 37, 4, 0.404),rgba(20, 92, 36, 0.945));
+}
+.Calculator-box-3 input:hover{
+  color:linear-gradient(rgba(22, 172, 97, 0.884),rgba(202, 204, 97, 0.63));
+  background:linear-gradient(rgba(47, 85, 110, 0.589),rgba(185, 212, 142, 0.671));
+}
+.Calculator-box-4 input:hover{
+  color:linear-gradient(rgba(70, 75, 3, 0.808),rgba(97, 161, 36, 0.596));
+  background:linear-gradient(rgba(53, 39, 12, 0.904),rgba(188, 207, 143, 0.596));
+}
+.Calculator-box-5 input:hover{
+  color:linear-gradient(rgba(184, 181, 48, 0.918),rgba(124, 83, 7, 0.918));
+  background:linear-gradient(rgba(6, 38, 41, 0.514),rgba(43, 87, 23, 0.589));
+}
+.Calculator-box-1 input:active{
+  color:linear-gradient(rgba(197, 6, 226, 0.512),rgba(73, 82, 99, 0.849));
+  background:linear-gradient(rgba(50, 250, 127, 0.836),rgba(24, 173, 173, 0.5));;
+}
+.Calculator-box-2 input:active{
+  color:linear-gradient(rgba(50, 250, 127, 0.836),rgba(24, 173, 173, 0.5));
+  background:linear-gradient(rgba(47, 85, 110, 0.589),rgba(185, 212, 142, 0.671));
+}
+.Calculator-box-3 input:active{
+  color:linear-gradient(rgba(22, 172, 97, 0.884),rgba(202, 204, 97, 0.63));
+  background:linear-gradient(rgba(49, 37, 4, 0.404),rgba(20, 92, 36, 0.945));
+}
+.Calculator-box-4 input:active{
+  color:linear-gradient(rgba(70, 75, 3, 0.808),rgba(97, 161, 36, 0.596));
+  background:linear-gradient(rgba(6, 38, 41, 0.514),rgba(43, 87, 23, 0.589));;
+}
+.Calculator-box-5 input:active{
+  color:linear-gradient(rgba(184, 181, 48, 0.918),rgba(124, 83, 7, 0.918));
+  background:linear-gradient(rgba(53, 39, 12, 0.904),rgba(188, 207, 143, 0.596));
+}
